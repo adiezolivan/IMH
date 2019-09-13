@@ -1,3 +1,3 @@
 # IMH
 
-Run the ipython notebooks with binder by using this link: https://mybinder.org/
+Run the ipython notebooks with binder by providing the repository URL (https://github.com/adiezolivan/IMH) to binder: https://mybinder.org/ 
