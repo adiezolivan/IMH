@@ -184,8 +184,12 @@ def draw_matrix_of_distances(centroids, labels, njoints=6, weights=None, distanc
     plt.figure(figsize=(30,24))
     plt.imshow(np.array(global_matrix), cmap = cmap, interpolation='nearest')       
     tickMarks = ['Joint ' + str(int(labels[i])) for i in range(len(labels))]
-    plt.xticks(range(len(tickMarks)), tickMarks, rotation=45, ha='right', fontsize=10)
-    plt.yticks(range(len(tickMarks)), tickMarks, rotation=45, ha='right', fontsize=10)
+    if njoints==6:
+        plt.xticks(range(len(tickMarks)), tickMarks, rotation=45, ha='right', fontsize=24)
+        plt.yticks(range(len(tickMarks)), tickMarks, rotation=45, ha='right', fontsize=24)
+    else:
+        plt.xticks(range(len(tickMarks)), tickMarks, rotation=45, ha='right', fontsize=10)
+        plt.yticks(range(len(tickMarks)), tickMarks, rotation=45, ha='right', fontsize=10)
     #plt.title('Map of pair-wise distances between joints centroids. ' + distance)
     # axis x info: labels that must be customised depending on the number of joints and areas under study    
     #    plt.text(15, 77, 'span6',horizontalalignment='center',verticalalignment='top',color='red')
@@ -207,9 +211,9 @@ def draw_matrix_of_distances(centroids, labels, njoints=6, weights=None, distanc
     # show only areas of interest by specifying graph bounds: it must be customised depending on the number of joints and areas under study  
     #plt.xlim(-0.5, 29.5)
     #plt.ylim(29.5, -0.5)    
-    if njoints==6:
-        plt.xlim(29.5, 50.5)
-        plt.ylim(50.5, 29.5)
+#    if njoints==6:
+#        plt.xlim(29.5, 50.5)
+#        plt.ylim(50.5, 29.5)
     #plt.xlim(50.5, 62.5)
     #plt.ylim(62.5, 50.5)    
     #plt.xlim(62.5, 69.5)
