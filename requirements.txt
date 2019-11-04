@@ -9,3 +9,4 @@ graphviz
 pydot
 pydot_ng
 mahotas
+nltk
