@@ -6,3 +6,8 @@ sklearn
 pydotplus
 nbgitpuller
 graphviz
+pydot
+pydot_ng
+mahotas
+nltk
+gensim
