@@ -11,3 +11,5 @@ pydot_ng
 mahotas
 nltk
 gensim
+model_evaluation_utils
+pydataset
