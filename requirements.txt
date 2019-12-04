@@ -13,3 +13,4 @@ nltk
 gensim
 model_evaluation_utils
 pydataset
+skater
