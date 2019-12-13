@@ -12,4 +12,3 @@ mahotas
 nltk
 gensim
 pydataset
-skater
