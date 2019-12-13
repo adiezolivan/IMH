@@ -12,3 +12,4 @@ mahotas
 nltk
 gensim
 pydataset
+xlrd >= 1.0.0
