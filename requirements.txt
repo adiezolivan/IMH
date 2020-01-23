@@ -13,3 +13,4 @@ nltk
 gensim
 pydataset
 xlrd >= 1.0.0
+imblearn
