@@ -16,3 +16,4 @@ xlrd >= 1.0.0
 imblearn
 keras
 tensorflow
+pystan
