@@ -1,2 +1,2 @@
 graphviz
-opengl
+libglew1.5-dev
