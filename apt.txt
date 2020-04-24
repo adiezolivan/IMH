@@ -1,2 +1,3 @@
 graphviz
 libglew1.5-dev
+pyglet
