@@ -17,4 +17,4 @@ imblearn
 keras
 tensorflow
 gym
-pyglet==1.3.2
+pyglet==1.5.0
